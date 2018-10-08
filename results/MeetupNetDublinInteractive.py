@@ -13,7 +13,7 @@ import threading
 #httpd = socketserver.TCPServer(("", port), Handler);
 #print ("Port: ", port);
 
-target_file = {"mono": "meetup_dublin_mono.gexf", "community": "meetup_dublin_comm.gexf"}
+target_file = {"mono": "meetupNetDublinMono.json", "community": "meetupNetDublinComm.json"}
 option = "mono";
 
 if len (sys.argv) > 1:
