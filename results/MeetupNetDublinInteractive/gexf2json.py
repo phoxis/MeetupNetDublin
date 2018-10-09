@@ -10,7 +10,7 @@ encoder.FLOAT_REPR = lambda f: format(f, '.6g')
 BASE_W = 800
 BASE_H = 700
 PADDING = 30
-MIN_EDGE_WIDTH = 1
+MIN_EDGE_WIDTH = 10
 MAX_EDGE_WIDTH = 50
 DEFAULT_COLOR = {'r': 127, 'g': 127, 'b': 127}
 
