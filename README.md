@@ -17,18 +17,18 @@ The Meetup.com website provides [an open API](https://www.meetup.com/meetup_api/
 
 ### Step 1: Network Characterisation
 
-The IPython notebook [Meetup Network Characterisation.ipynb](Meetup Network Characterisation.ipynb) applies a number of standard network characterisation approaches to explore the Dublin meetup network.
+The IPython notebook *Meetup Network Characterisation.ipynb* applies a number of standard network characterisation approaches to explore the Dublin meetup network.
 
 ### Step 2: Community Finding
 
 To apply the Python wrapper for OSLOM algorithm to the meetup network, run the script *py-oslom.py*:
 
-	python py-oslom.py data/meetup-normalised-comembership.edges -w --iters 20 --minsize 2 -r 0.1 -t 0.1 -o results/oslom-communities.comm
+	python py-oslom.py data/meetup-normalised-comembership.edges --iters 20 --minsize 2 -r 0.1 -t 0.1 -o results/oslom-communities.comm
 
 Note: Requires the compiled binary of the OSLOM C++ sources, which are available [from here](http://www.oslom.org/software.htm).
 
 ### Step 3: Community Analysis
 
-The IPython notebook [Meetup Community Analysis.ipynb](Meetup Community Analysis.ipynb) analyses the results of applying OSLOM community finding to the Dublin meetup network, using both network-based and text-based techniques.
+The IPython notebook *Meetup Community Analysis.ipynb* analyses the results of applying OSLOM community finding to the Dublin meetup network, using both network-based and text-based techniques.
 
 
