@@ -7,6 +7,7 @@ Full details of our methodology are provided in the paper [[PDF]](https://arxiv.
 
         MeetupNet Dublin: Discovering Communities in Dublin's Meetup Network (2018)
         Arjun Pakrashi, Elham Alghamdi, Brian Mac Namee, Derek Greene
+        Proc. 26th Irish Conference on Artificial Intelligence and Cognitive Science (AICS)
         https://arxiv.org/abs/1810.03046
 
 Code tested with Python 3.6. Dependencies: Pandas, Scikit-learn, NetworkX, Matplotlib.
