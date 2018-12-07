@@ -3,7 +3,7 @@ MeetupNetDublin
 
 Code and data for community analysis of the Dublin Meetup.com network is provided here for reproducibility purposes, and to support the analysis of Meetup networks in other locations.
 
-Full details of our methodology are provided in the paper [[PDF]](https://arxiv.org/pdf/1810.03046.pdf):
+Full details of our methodology are provided in the paper [[PDF]](https://arxiv.org/pdf/1810.03046.pdf)[[SLIDES]](MeetupNetDublin AICS 2018 Dublin Slides.pdf):
 
         MeetupNet Dublin: Discovering Communities in Dublin's Meetup Network (2018)
         Arjun Pakrashi, Elham Alghamdi, Brian Mac Namee, Derek Greene
@@ -34,8 +34,8 @@ The IPython notebook *Meetup Community Analysis.ipynb* analyses the results of a
 
 ### Step 4: Community Visualisation
 
-The *results/MeetupNetDublinInteractive* has the code to visualise the communities. The visualise the communities the [JavaScript GEXF Viewer for Gephi](https://github.com/raphv/gexf-js) was used. A live online version is available in
+The *results/MeetupNetDublinInteractive* has the code to visualise the communities. To visualise the communities [JavaScript GEXF Viewer for Gephi](https://github.com/raphv/gexf-js) was used. A live online version is available through the following links:
 
 * [Community visualisation 1](https://draig.ucd.ie/MeetupNetDublinInteractive/index.html#meetupNetDublinMono.json): Based on the weighted degree of every node. Darker colour indicates a higher weighted degree and the size of the node is proportional to the number of members of the respective meetup.
-* [Community visualisation 2](): Different colours represent different communities. Orange coloured nodes are the common nodes between atleast two communities.
+* [Community visualisation 2](https://draig.ucd.ie/MeetupNetDublinInteractive/index.html#meetupNetDublinComm.json): Different colours represent different communities. Orange coloured nodes are the common nodes between atleast two communities.
 
