@@ -3,7 +3,7 @@ MeetupNetDublin
 
 Code and data for community analysis of the Dublin Meetup.com network is provided here for reproducibility purposes, and to support the analysis of Meetup networks in other locations.
 
-Full details of our methodology are provided in the paper [[PDF]](https://arxiv.org/pdf/1810.03046.pdf) [SLIDES](MeetupNetDublin\ AICS\ 2018\ Dublin\ Slides.pdf):
+Full details of our methodology are provided in the paper [[PDF]](https://arxiv.org/pdf/1810.03046.pdf) [[SLIDES]](MeetupNetDublin\ AICS\ 2018\ Dublin\ Slides.pdf):
 
         MeetupNet Dublin: Discovering Communities in Dublin's Meetup Network (2018)
         Arjun Pakrashi, Elham Alghamdi, Brian Mac Namee, Derek Greene
