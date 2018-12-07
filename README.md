@@ -32,4 +32,10 @@ Note: Requires the compiled binary of the OSLOM C++ sources, which are available
 
 The IPython notebook *Meetup Community Analysis.ipynb* analyses the results of applying OSLOM community finding to the Dublin meetup network, using both network-based and text-based techniques.
 
+### Step 4: Community Visualisation
+
+The *results/MeetupNetDublinInteractive* has the code to visualise the communities. The visualise the communities the [JavaScript GEXF Viewer for Gephi](https://github.com/raphv/gexf-js) was used. A live online version is available in
+
+* [Community visualisation 1](https://draig.ucd.ie/MeetupNetDublinInteractive/index.html#meetupNetDublinMono.json): Based on the weighted degree of every node. Darker colour indicates a higher weighted degree and the size of the node is proportional to the number of members of the respective meetup.
+* [Community visualisation 2](): Different colours represent different communities. Orange coloured nodes are the common nodes between atleast two communities.
 
